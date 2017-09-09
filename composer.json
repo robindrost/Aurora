@@ -1,0 +1,25 @@
+{
+    "name": "robin.drost/aurora",
+    "description": "Laravel dashboard package.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robin Drost",
+            "email": "robindrost@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "laravel/framework": "5.5.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "RobinDrost\\Aurora\\": "src"
+        }
+    }
+}
